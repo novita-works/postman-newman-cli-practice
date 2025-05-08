@@ -7,19 +7,7 @@ This is a simple practice for running Postman collections using the CLI tool New
 newman run Newman-Functional-testing.postman_collection.json
 ```
 
-## CLI Execution Result Example
-When running the collection using Newman, you will see an output like this:
+## CLI Execution Result
 
-┌─────────────────────────┬──────────┬─────────┐
-│                         │ executed │ failed  │
-├─────────────────────────┼──────────┼─────────┤
-│ iterations              │        1 │       0 │
-│ requests                │        9 │       0 │
-│ test-scripts            │       20 │       0 │
-│ prerequest-scripts      │       20 │       0 │
-│ assertions              │       19 │       0 │
-└─────────────────────────┴──────────┴─────────┘
-total run duration: 6s
-total data received: 708B (approx)
-average response time: 633ms [min: 278ms, max: 2.9s, s.d.: 808ms]
-All assertions passed, indicating that the API tests are working as expected.
+When running the collection using Newman, you will see an output like this:
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/0eb32935-2e0b-4e2c-9ddb-3a66e7b7443f" />
