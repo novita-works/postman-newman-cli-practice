@@ -9,6 +9,7 @@ newman run Newman-Functional-testing.postman_collection.json
 
 ## CLI Execution Result Example
 When running the collection using Newman, you will see an output like this:
+
 ┌─────────────────────────┬──────────┬─────────┐
 │                         │ executed │ failed  │
 ├─────────────────────────┼──────────┼─────────┤
